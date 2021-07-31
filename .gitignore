@@ -1,0 +1,6 @@
+.env
+cypress.json
+cypress/integration/examples
+node_modules
+.history
+cypress/videos

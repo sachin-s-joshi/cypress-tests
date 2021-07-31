@@ -1,0 +1,14 @@
+{
+    "compilerOptions": { 
+        "target": "ES6",
+        "lib":["es5"],
+        "types": ["cypress"],
+        "allowJs": false,
+        "baseUrl": ".",
+        "module": "commonJs",
+    },
+    "include": [ 
+        "./cypress/**/*.ts"
+, "cypress/integration/examples/pens.spec.js", "cypress/integration/another.spec.js", "cypress/integration/google.spec.js"    ],
+    "exclude": ["node_modules"]
+}
