@@ -47,7 +47,7 @@ describe('Cypress Locators in action', ()=>{
         
     })
 
-    it.only('Class selector short hand',()=>{
+    it('Class selector short hand',()=>{
 
         //find class containing value using *=
         cy.get("a[class*='add_to_cart']")
