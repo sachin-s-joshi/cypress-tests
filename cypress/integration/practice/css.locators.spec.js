@@ -27,7 +27,7 @@ describe('Cypress Locators in action', ()=>{
         cy.get('.item')
         .eq(0) //0th element in the array of elements
         .click()
-
+        
         cy.get('[class*="center_column"]') 
         .should('be.visible')
     })    
@@ -47,7 +47,7 @@ describe('Cypress Locators in action', ()=>{
         
     })
 
-    it('Class selector short hand',()=>{
+    it.only('Class selector short hand',()=>{
 
         //find class containing value using *=
         cy.get("a[class*='add_to_cart']")

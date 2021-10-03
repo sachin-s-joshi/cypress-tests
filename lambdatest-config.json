@@ -8,30 +8,32 @@
          "browser": "Chrome",
          "platform": "Windows 10",
          "versions": [
-            "90.0"
+            "92.0"
          ]
       },
       {
          "browser": "Firefox",
          "platform": "macOS Big Sur",
          "versions": [
-            "82.0"
+            "92.0"
          ]
       }
    ],
    "run_settings": {
       "cypress_config_file": "cypress.json",
-      "build_name": "LambdaCypress",
-      "parallels": 1,
-      "specs": "./cypress/integration/*.spec.js",
+      "build_name": "Cypress",
+      "parallels": 2,
+      "specs": "./cypress/integration/practice/*.spec.js",
       "ignore_files": "",
       "npm_dependencies": {
-         "cypress": "6.1.0"
+         "cypress": "8.1.0"
       },
-      "feature_file_suppport": false
+      "feature_file_suppport": false,
+      "video":true
    },
    "tunnel_settings": {
       "tunnel": false,
       "tunnelName": null
    }
+  
 }
