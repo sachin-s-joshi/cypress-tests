@@ -4,3 +4,4 @@ cypress/integration/examples
 node_modules
 .history
 cypress/videos
+tsconfig._json
