@@ -8,9 +8,25 @@
          "browser": "Chrome",
          "platform": "Windows 10",
          "versions": [
+            "94.0"
+         ]
+      },
+
+      {
+         "browser": "Firefox",
+         "platform": "Windows 10",
+         "versions": [
             "92.0"
          ]
       },
+      {
+         "browser": "Chrome",
+         "platform": "macOS Big Sur",
+         "versions": [
+            "94.0"
+         ]
+      },
+      
       {
          "browser": "Firefox",
          "platform": "macOS Big Sur",
@@ -22,8 +38,8 @@
    "run_settings": {
       "cypress_config_file": "cypress.json",
       "build_name": "Cypress",
-      "parallels": 2,
-      "specs": "./cypress/integration/practice/*.spec.js",
+      "parallels": 4,
+      "specs": "./cypress/integration/practice/formSubmit.spec.js",
       "ignore_files": "",
       "npm_dependencies": {
          "cypress": "8.1.0"
